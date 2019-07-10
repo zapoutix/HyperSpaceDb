@@ -31,12 +31,15 @@ namespace HyperSpaceDB.Test
  
         static void Main(string[] args)
         {
-            var listHosts = new List<Tuple<string, string>>();
+            var listHosts = new List<Tuple<string, int>>();
             foreach (var arg in args)
             {
                 var tab = arg.Split(":");
-                listHosts.Add(new Tuple<string, string>(tab[0], tab[1]));
+                listHosts.Add(new Tuple<string, int>(tab[0], Convert.ToInt32(tab[1])));
             }
+
+            if (!listHosts.Any())
+                listHosts.Add(new Tuple<string, int>("127.0.0.1", 9999));
             List<byte[]> list = new List<byte[]>();
             for (int i = 0; i < 100000; i++)
                 list.Add(CreateSimpleModel().ToProtoBuf());
@@ -52,7 +55,7 @@ namespace HyperSpaceDB.Test
                 {
                     var host = listHosts[r.Next(0, listHosts.Count())];
                     Console.WriteLine($"Connect to {host.Item1} {host.Item2}");
-                    TcpClient client = new TcpClient(host.Item1, Convert.ToInt32(host.Item2));
+                    TcpClient client = new TcpClient(host.Item1, host.Item2);
                     NetworkStream stream = client.GetStream();
                     Stopwatch sww = new Stopwatch();
                     sww.Start();
@@ -62,7 +65,7 @@ namespace HyperSpaceDB.Test
                     var count = list.Count;
                     for (int o = 0; o < count; o++)
                         SendInsertMessage(stream, list[o], transactionId);
-                        
+
                     Console.WriteLine($"[{idx}] SendCommitTransactionMessage");
                     SendCommitTransactionMessage(stream, transactionId);
                     SendCountnMessage(stream, Guid.NewGuid());
