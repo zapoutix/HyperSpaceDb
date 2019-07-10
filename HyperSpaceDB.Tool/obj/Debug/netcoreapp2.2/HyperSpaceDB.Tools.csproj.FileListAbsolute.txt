@@ -1,0 +1,9 @@
+/home/zapoutix/Dev/HyperSpaceDb/HyperSpaceDB.Tool/bin/Debug/netcoreapp2.2/HyperSpaceDB.Tools.deps.json
+/home/zapoutix/Dev/HyperSpaceDb/HyperSpaceDB.Tool/bin/Debug/netcoreapp2.2/HyperSpaceDB.Tools.dll
+/home/zapoutix/Dev/HyperSpaceDb/HyperSpaceDB.Tool/bin/Debug/netcoreapp2.2/HyperSpaceDB.Tools.pdb
+/home/zapoutix/Dev/HyperSpaceDb/HyperSpaceDB.Tool/obj/Debug/netcoreapp2.2/HyperSpaceDB.Tools.csprojAssemblyReference.cache
+/home/zapoutix/Dev/HyperSpaceDb/HyperSpaceDB.Tool/obj/Debug/netcoreapp2.2/HyperSpaceDB.Tools.csproj.CoreCompileInputs.cache
+/home/zapoutix/Dev/HyperSpaceDb/HyperSpaceDB.Tool/obj/Debug/netcoreapp2.2/HyperSpaceDB.Tools.AssemblyInfoInputs.cache
+/home/zapoutix/Dev/HyperSpaceDb/HyperSpaceDB.Tool/obj/Debug/netcoreapp2.2/HyperSpaceDB.Tools.AssemblyInfo.cs
+/home/zapoutix/Dev/HyperSpaceDb/HyperSpaceDB.Tool/obj/Debug/netcoreapp2.2/HyperSpaceDB.Tools.dll
+/home/zapoutix/Dev/HyperSpaceDb/HyperSpaceDB.Tool/obj/Debug/netcoreapp2.2/HyperSpaceDB.Tools.pdb
