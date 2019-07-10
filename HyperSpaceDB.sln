@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HyperSpaceDB.Engine", "HyperSpaceDB.Engine\HyperSpaceDB.Engine.csproj", "{BDC285C6-9EC0-43FC-B363-7DD1F29C2AC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HyperSpaceDB.Models", "HyperSpaceDB.Models\HyperSpaceDB.Models.csproj", "{745AA799-262A-4631-BC47-5ABDE9C4AF4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HyperSpaceDB.Test", "HyperSpaceDB.Test\HyperSpaceDB.Test.csproj", "{422AA7B3-4514-4246-8D5C-062BDF216DCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HyperSpaceDB.Tools", "HyperSpaceDB.Tool\HyperSpaceDB.Tools.csproj", "{710E3ACC-8BBF-4238-949D-2AF9F71BC55D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDC285C6-9EC0-43FC-B363-7DD1F29C2AC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDC285C6-9EC0-43FC-B363-7DD1F29C2AC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDC285C6-9EC0-43FC-B363-7DD1F29C2AC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDC285C6-9EC0-43FC-B363-7DD1F29C2AC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{745AA799-262A-4631-BC47-5ABDE9C4AF4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{745AA799-262A-4631-BC47-5ABDE9C4AF4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{745AA799-262A-4631-BC47-5ABDE9C4AF4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{745AA799-262A-4631-BC47-5ABDE9C4AF4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{422AA7B3-4514-4246-8D5C-062BDF216DCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{422AA7B3-4514-4246-8D5C-062BDF216DCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{422AA7B3-4514-4246-8D5C-062BDF216DCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{422AA7B3-4514-4246-8D5C-062BDF216DCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{710E3ACC-8BBF-4238-949D-2AF9F71BC55D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{710E3ACC-8BBF-4238-949D-2AF9F71BC55D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{710E3ACC-8BBF-4238-949D-2AF9F71BC55D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{710E3ACC-8BBF-4238-949D-2AF9F71BC55D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {024ED3D9-C2E0-4AD6-B08F-F205347371EC}
+	EndGlobalSection
+EndGlobal

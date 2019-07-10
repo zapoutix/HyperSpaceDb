@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/zapoutix/Dev/HyperSpaceDb/HyperSpaceDB.Tool/HyperSpaceDB.Tools.csproj": {}
+  },
+  "projects": {
+    "/home/zapoutix/Dev/HyperSpaceDb/HyperSpaceDB.Tool/HyperSpaceDB.Tools.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/zapoutix/Dev/HyperSpaceDb/HyperSpaceDB.Tool/HyperSpaceDB.Tools.csproj",
+        "projectName": "HyperSpaceDB.Tools",
+        "projectPath": "/home/zapoutix/Dev/HyperSpaceDb/HyperSpaceDB.Tool/HyperSpaceDB.Tools.csproj",
+        "packagesPath": "/home/zapoutix/.nuget/packages/",
+        "outputPath": "/home/zapoutix/Dev/HyperSpaceDb/HyperSpaceDB.Tool/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/zapoutix/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "protobuf-net": {
+              "target": "Package",
+              "version": "[3.0.0-alpha.43, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
